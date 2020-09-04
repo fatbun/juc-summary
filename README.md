@@ -234,7 +234,7 @@
 >   | store（存储）  | 作用于主内存变量，把一个从**工作内存**中变量的值传送到**主内存**，一遍后续write使用。 |
 >   | write（写入）  | 作用于主内存变量，把store操作后变量的值放入**主内存**的变量中。 |
 >
->   ![jmm1](images/jmm1.jpg)
+>   ![jmm1](./images/jmm1.jpg)
 >
 > - 指令的使用规则
 >
@@ -525,7 +525,7 @@
 >   - TIDYING，清空状态，所有任务都停止了，工作线程也全部结束。
 >   - TERMINATED，终止状态，线程池已销毁。
 >
->   ![threadpool](images/threadpool.png)
+>   ![threadpool](./images/threadpool.png)
 >
 > - execute方法
 >
